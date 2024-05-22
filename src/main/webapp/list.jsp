@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Employee List</title>
-    <!-- Link to Bootstrap CSS -->
+
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
@@ -29,7 +29,7 @@
                 </tr>
                 </thead>
                 <tbody>
-                <%-- Loop through employees and populate table rows --%>
+
                 <c:forEach var="employee" items="${employees}">
                     <tr>
                         <td>${employee.id}</td>
